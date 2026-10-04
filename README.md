@@ -5,8 +5,8 @@ Este repositório reúne o código e os documentos do projeto de iniciação cie
 ## Arquivos
 
 - [codigo_robo.py](./codigo_robo.py): programa do robô, com seguimento de linha por controle proporcional, leitura de cores, desvio de obstáculos e rotinas da área de resgate.
-- [versao_textual_com_links.docx](./versao_textual_com_links.docx): texto para submissão, sem imagens nem tabelas, com links para o material completo.
-- [relatorio_completo_com_fotos.docx](./relatorio_completo_com_fotos.docx): relatório integral, com fotografias do protótipo e descrição textual da máquina de estados.
+- [versao_textual_final.docx](./versao_textual_final.docx): texto para submissão, sem imagens nem tabelas, com links para o material completo.
+- [relatorio_completo_final.docx](./relatorio_completo_final.docx): relatório integral, com fotografias do protótipo e descrição textual da máquina de estados.
 - [robo-frente.png](./robo-frente.png) e [robo-lateral.png](./robo-lateral.png): fotografias do protótipo.
 
 O código foi escrito para o ambiente LEGO SPIKE Prime e usa as bibliotecas hub, color_sensor, motor, runloop, utime e distance_sensor fornecidas pela plataforma.
