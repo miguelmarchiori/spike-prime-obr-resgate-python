@@ -1,26 +1,26 @@
-# Robo LEGO SPIKE Prime para a categoria Resgate da OBR
+# Robô LEGO SPIKE Prime para a categoria Resgate da OBR
 
-Este repositorio reune o codigo e os documentos do projeto de iniciacao cientifica sobre o uso de Python em um robo autonomo LEGO SPIKE Prime para a categoria Resgate da Olimpiada Brasileira de Robotica.
+Este repositório reúne o código e os documentos do projeto de iniciação científica sobre o uso de Python em um robô autônomo LEGO SPIKE Prime para a categoria Resgate da Olimpíada Brasileira de Robótica.
 
 ## Arquivos
 
-- [codigo_robo.py](./codigo_robo.py): programa do robo, com seguimento de linha por controle proporcional, leitura de cores, desvio de obstaculos e rotinas da area de resgate.
-- [versao_textual_com_links.docx](./versao_textual_com_links.docx): texto para submissao, sem imagens nem tabelas, com links para o material completo.
-- [relatorio_completo_com_fotos.docx](./relatorio_completo_com_fotos.docx): relatorio integral, com fotografias do prototipo e detalhamento textual da maquina de estados.
-- [robo-frente.png](./robo-frente.png) e [robo-lateral.png](./robo-lateral.png): fotografias do prototipo.
+- [codigo_robo.py](./codigo_robo.py): programa do robô, com seguimento de linha por controle proporcional, leitura de cores, desvio de obstáculos e rotinas da área de resgate.
+- [versao_textual_com_links.docx](./versao_textual_com_links.docx): texto para submissão, sem imagens nem tabelas, com links para o material completo.
+- [relatorio_completo_com_fotos.docx](./relatorio_completo_com_fotos.docx): relatório integral, com fotografias do protótipo e descrição textual da máquina de estados.
+- [robo-frente.png](./robo-frente.png) e [robo-lateral.png](./robo-lateral.png): fotografias do protótipo.
 
-O codigo foi escrito para o ambiente LEGO SPIKE Prime e usa as bibliotecas hub, color_sensor, motor, runloop, utime e distance_sensor da plataforma.
+O código foi escrito para o ambiente LEGO SPIKE Prime e usa as bibliotecas hub, color_sensor, motor, runloop, utime e distance_sensor fornecidas pela plataforma.
 
-## Maquina de estados
+## Máquina de estados
 
-O laco principal prioriza a parada por vermelho, a confirmacao da entrada da area de resgate, o desvio de obstaculos, a marca de dois pretos e as decisoes de curva por verde. Quando nenhuma condicao especial e confirmada, o robo continua seguindo a linha. As rotinas retornam o controle ao laco principal; a exploracao da area de resgate fica a cargo de uma rotina propria.
+O laço principal prioriza a parada por vermelho, a confirmação da entrada da área de resgate, o desvio de obstáculos, a marca de dois pretos e as decisões de curva por verde. Quando nenhuma condição especial é confirmada, o robô continua seguindo a linha. As rotinas retornam o controle ao laço principal; a exploração da área de resgate fica a cargo de uma rotina própria.
 
 ## Resultados relatados
 
-A equipe conquistou o primeiro lugar regional na area Norte do Parana e alcancou o nono lugar na etapa estadual da OBR.
+A equipe conquistou o primeiro lugar regional na área Norte do Paraná e alcançou o nono lugar na etapa estadual da OBR.
 
 ## Uso
 
-Os tempos, as portas e os limites do codigo foram ajustados para este prototipo e podem exigir calibracao em outro robô ou percurso.
+Os tempos, as portas e os limites do código foram ajustados para este protótipo e podem exigir calibração em outro robô ou percurso.
 
-Pasta publica no Google Drive: https://drive.google.com/drive/folders/1-QyLAq80kPAi2ejt6nM-Dwg2X4G7NBcN
+Pasta pública no Google Drive: https://drive.google.com/drive/folders/1-QyLAq80kPAi2ejt6nM-Dwg2X4G7NBcN
